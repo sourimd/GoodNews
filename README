@@ -1,0 +1,9 @@
+This project was part of my Human Centred Coputing course at Clemson University. It was team project.
+
+The application that we came up with is a web-app which filters out good news from the bad ones
+and project only the good ones. We implemented Sentiment Analysis algorithm which is basically a
+pattern recognition algorithm that classifies a piece of news article into good or bad depending
+upon the words that are used in that article. For a more in-depth discussion please visit
+https://hccsara2013.wordpress.com/ .. 
+
+We used HTML, JavaScript, AJAX and PHP for implementing different modules of this application

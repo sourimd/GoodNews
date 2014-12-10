@@ -1,0 +1,18 @@
+sourimd@clemson.edu	abcd	Sourim
+amber1@clemson.edu	clam009	Amber
+		
+another@clemson.edu	1234	Bob
+bob@clemson.edu	clam009	Clair
+non@g.clemson.edu	clam009	non
+princess@clemson.edu	clam009	princess
+eustanceFranks@clemson.edu	clam009	Eustance Franks Eubanks
+rlakshm@clemson.edu	quidditch	Rekha
+aaaa@clemson.edu	aaa	aaa
+rekha	QQ	rekha
+rekha		rekha
+rlakshm@clemson.edu	qqq	rekha
+		
+		
+		
+nere@g.clemson.edu	1234	bob
+sdaily@clemson.edu	goodnews	Sbd

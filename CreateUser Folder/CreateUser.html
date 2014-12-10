@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>HCC SARA</title>
+    <h3>Create User</h3>
+    <script>
+
+        function checkuserid(){
+
+        uid=document.getElementById("userid").value;
+        
+        var n = uid.indexOf("@clemson.edu");
+
+        if((n>0)){}
+        else{
+          window.alert("Use your Clemson University ID with @clemson.edu appended at the back");
+          window.location="createuser.html";
+        }
+      }
+
+         function checkpassword(){
+
+         pass=document.getElementById("pass").value;
+         cnfpass=document.getElementById("confpass").value;
+
+         
+
+         if(pass!=cnfpass){
+             window.alert("Your password should match with confirm password");
+             window.location="createuser.html";
+           }
+
+      }
+
+    </script>
+  </head>
+
+  <body>
+    <form action="CreateUser.php" method=post>
+        <table>
+         
+         <tr>
+            <td>UserID</td>
+            <td align="center"><input type="text" name="UserID" size="20" maxlength="50" id="userid" onblur="checkuserid()"/></td>
+         </tr>
+ 
+         <tr>
+            <td>Password</td>
+            <td align="center"><input type="password" name="password" size="20" maxlength=50" id="pass"></td>
+         </tr>
+
+         <tr>
+           <td>Confirm Password</td>
+           <td align="center"><input type="password" name="confirmPassword" size="20" maxlength="50" id="confpass" onblur="checkpassword()"/></td>
+         </tr>
+
+         <tr>
+           <td>Prefered Name</td>
+           <td align="center"><input type="text" name="Name" size="20" maxlength="50"></td>
+         </tr>
+
+         <tr>
+           <td colspan="2" align="center"><input type="submit" value="Next"></td>
+         </tr>
+        </table>
+
+      </form>
+
+
+
+  </body>
+</html>
